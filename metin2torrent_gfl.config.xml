@@ -8,6 +8,7 @@
     new_patcher_path="metin2launch.bin"
     new_patcher_crc32="0xcd8b7999">
     <foreground_patch crcpatch_url="http://lucaluca301.github.io/beta/" crcversion="0.0.0.2"/>
+    <delete_info path="MetinX.exe" />
 
     <!--HOW TO ADD ALTERNATIVE MIRRORS-->
     <!--<foreground_patch crcpatch_url="http://127.0.0.1:8080" crcversion="m2_18.5.6_22630"/>-->
