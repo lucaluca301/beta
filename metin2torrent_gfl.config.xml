@@ -1,14 +1,18 @@
 <torrent_config 
-    run_path="MSS32.bin"
+    run_path="MTX-4K.bin"
     notice_ver="0"
     notice_url="https://www.google.com/"
     notice_width="671"
     notice_height="600"
-    cur_patcher_path="MTX.exe"
+    cur_patcher_path="MTX-4K.bin"
     new_patcher_path="metin2launch.bin"
     new_patcher_crc32="0xcd8b7999">
     <foreground_patch crcpatch_url="http://lucaluca301.github.io/beta/" crcversion="0.0.0.2"/>
-    <delete_info path="MetinX.exe" />
+    <!--Delete those files to thwart players changing the bin name to exe-->
+    <delete_info path="MTX-4K.exe" />
+    <delete_info path="MTX4K.exe" />
+    <delete_info path="metin2client.exe" />
+    <delete_info path="MTX.exe" />
 
     <!--HOW TO ADD ALTERNATIVE MIRRORS-->
     <!--<foreground_patch crcpatch_url="http://127.0.0.1:8080" crcversion="m2_18.5.6_22630"/>-->
