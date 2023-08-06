@@ -7,8 +7,8 @@
     cur_patcher_path="MTX-4K.bin"
     new_patcher_path="metin2launch.bin"
     new_patcher_crc32="0xcd8b7999">
-    <foreground_patch crcpatch_url="http://lucaluca301.github.io/beta/" crcversion="0.0.0.2"/>
-    <!--Delete those files to thwart players changing the bin name to exe-->
+    <foreground_patch crcpatch_url="http://lucaluca301.github.io/web/" crcversion="0.0.0.2"/>
+
     <delete_info path="MTX-4K.exe" />
     <delete_info path="MTX4K.exe" />
     <delete_info path="metin2client.exe" />
