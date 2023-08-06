@@ -7,7 +7,7 @@
     cur_patcher_path="MTX-4K.bin"
     new_patcher_path="metin2launch.bin"
     new_patcher_crc32="0xcd8b7999">
-    <foreground_patch crcpatch_url="http://www.patchersite.com/web/" crcversion="0.0.0.2"/>
+    <foreground_patch crcpatch_url="http://www.patchersite.com/" crcversion="0.0.0.2"/>
 
     <delete_info path="MTX-4K.exe" />
     <delete_info path="MTX4K.exe" />
