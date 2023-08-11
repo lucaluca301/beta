@@ -1,24 +1,20 @@
 <torrent_config 
-    run_path="MTX-4K.bin"
+    run_path="MTX-4K.exe"
     notice_ver="0"
     notice_url="https://www.google.com/"
     notice_width="671"
     notice_height="600"
-    cur_patcher_path="MTX-4K.bin"
+    cur_patcher_path="MTX-4K.exe"
     new_patcher_path="metin2launch.bin"
     new_patcher_crc32="0xcd8b7999">
     <foreground_patch crcpatch_url="http://www.patchersite.com/" crcversion="0.0.0.2"/>
-
-    <delete_info path="MTX-4K.exe" />
-    <delete_info path="MTX4K.exe" />
-    <delete_info path="metin2client.exe" />
-    <delete_info path="MTX.exe" />
 
     <!--HOW TO ADD ALTERNATIVE MIRRORS-->
     <!--<foreground_patch crcpatch_url="http://127.0.0.1:8080" crcversion="m2_18.5.6_22630"/>-->
 
     <!--HOW TO DELETE FILES-->
     <!--<delete_info path="pack\metin2_patch_dragon_rock.rdch" />
+    <delete_info path="MTX.exe" />
     <delete_info path="pack\metin2_patch_dragon_rock_texcache.eix" />
     <delete_info path="pack\metin2_patch_dragon_rock_texcache.epk" />
     <delete_info path="pack\metin2_patch_dragon_rock_mobs.rdch" />
